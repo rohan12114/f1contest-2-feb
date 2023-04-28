@@ -1,0 +1,71 @@
+html{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+nav{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    gap: 20px;
+
+}
+.card-container{
+    width: 25%;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+.card{
+    padding: 20px;
+    border: 1px solid gray;
+}
+.item{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 75%;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+table{
+
+    border: 1px solid gray;
+    width: 100%;
+    margin-top: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+     border-spacing:2px;
+     background-color: gray;
+}
+thead{
+    border: 1px solid gray;
+}
+td{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: black;
+}
+thead td{
+    border: 1px solid gray;
+
+}
